@@ -1,0 +1,24 @@
+{
+    "path_to_trainings": "/home/rl-public/IsaacLab/logs/skrl",
+    "trainings": {
+        "reach_no_obs": [
+            "/reach_ur3/2024-10-30_10-11-44_ppo_torch"
+        ],
+        "reach_w_obs": [
+            "/reach_ur3/2024-11-01_01-28-50_ppo_torch"
+        ],
+        "lift_no_obs": [
+            "/ur3_lift/2024-11-05_01-37-59_ppo_torch"
+        ],
+        "lift_w_obs": [
+            "/ur3_lift/2024-11-05_18-27-10_ppo_torch"
+        ]
+    },
+    "criteria": [
+        "Info / Episode_Reward/action_rate",
+        "Reward / Instantaneous reward (mean)",
+        "Loss / Policy loss",
+        "Policy / Standard deviation",
+        "Learning / Learning rate"
+    ]
+}
